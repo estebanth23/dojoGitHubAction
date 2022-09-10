@@ -43,5 +43,5 @@ jobs:
           
     - name: Push to Heroku
       if: steps.add.outputs.exit_code == 0
-      run: git push heroku main
+      run: git push heroku master
 
